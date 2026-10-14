@@ -4,10 +4,10 @@ class program
 
     static void Main()
     {
-        Console.Write("What is your name?");
+        Console.Write("What is your name?:");
         string name = Console.ReadLine();
 
-        Console.Write("Hi {name}! Please enter your age as a number.");
+        Console.Write($"Hi {name}! Please enter your age as a number:");
         string ageInput = Console.ReadLine();
 
         int currentYear = DateTime.Now.Year;
